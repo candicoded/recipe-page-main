@@ -30,11 +30,17 @@ body {
   color: var(--wenge-brown);
 }
 
+section {
+  margin: 2em;
+}
+
 h1 {
   font-family: "Young Serif";
   font-weight: 400;
   color: var(--dark-charcoal);
   line-height: 1;
+  font-size: 2.3rem;
+  margin-bottom: .7em;
 }
 
 h2 {
@@ -44,6 +50,11 @@ h2 {
 
 h4 {
   color: var(--dark-raspberry);
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1em;
 }
 
 .prep-container {
