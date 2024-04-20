@@ -46,10 +46,13 @@ h1 {
 h2 {
   color: var(--nutmeg);
   font-family: "Young Serif";
+  font-size: 1.7rem;
+  font-weight: lighter;
 }
 
 h4 {
   color: var(--dark-raspberry);
+  font-size: 1.2rem;
 }
 
 p {
@@ -59,4 +62,49 @@ p {
 
 .prep-container {
   background-color: var(--rose-white);
+  padding: 1em;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.prep-container ul {
+  padding: 1em;
+}
+
+.prep-container ul li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.ingredients ul{
+  margin: 1em 0;
+}
+
+.ingredients ul li {
+  margin-bottom: 1em;
+}
+
+hr {
+  border-color: var(--light-grey);
+  margin: 2em 0;
+}
+
+.instructions ol {
+  padding: 1.5em 1.5em 0 1.5em;
+}
+
+.instructions ol li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+h2.nutrition {
+  margin-bottom: 0.7em;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 1em;
 }
