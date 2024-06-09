@@ -108,3 +108,29 @@ td {
   border-bottom: 1px solid var(--light-grey);
   padding-bottom: 1em;
 }
+
+.nutrition-values {
+  color: var(--nutmeg);
+  font-weight: bold;
+}
+
+ul li::marker {
+  font-size: 0.8rem;
+}
+
+ol li::marker {
+  color: var(--nutmeg);
+  font-weight: bold;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 1440px) {
+  
+  body {
+    background-color: var(--light-grey);
+  }
+
+  main {
+    width: 85%;
+  }
+}
