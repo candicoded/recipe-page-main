@@ -10,11 +10,6 @@
   --dark-charcoal: hsl(24, 5%, 18%);
 }
 
-/*
-Young Serif 400
-Outfit  400 600 700
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -128,8 +123,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: hsl(228, 45%, 44%);
-  font-size: 11px;
+  color: black;
+  font-size: 1rem;
   text-align: center;
 }
 
