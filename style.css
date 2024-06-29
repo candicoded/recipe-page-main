@@ -59,7 +59,8 @@ p {
 
 .prep-container p {
   color: var(--dark-raspberry);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .prep-container ul {
