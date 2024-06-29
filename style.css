@@ -45,11 +45,6 @@ h2 {
   font-weight: lighter;
 }
 
-h4 {
-  color: var(--dark-raspberry);
-  font-size: 1.2rem;
-}
-
 p {
   line-height: 1.5;
   margin-bottom: 1em;
@@ -60,6 +55,11 @@ p {
   padding: 1em;
   border-radius: 10px;
   margin: 2em 0;
+}
+
+.prep-container p {
+  color: var(--dark-raspberry);
+  font-size: 1.2rem;
 }
 
 .prep-container ul {
@@ -143,7 +143,7 @@ footer {
     width: 55%;
     background-color: var(--white);
     border-radius: 30px;
-    margin: 5em;
+    margin: 6em;
   }
 
   img {
