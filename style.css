@@ -123,8 +123,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: black;
-  font-size: 1rem;
+  color: var(--nutmeg);
+  font-size: 0.7rem;
   text-align: center;
 }
 
